@@ -408,8 +408,9 @@ hr {
 footer {
   background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
   position: relative;
+  margin-top: 170px;
 }
-.footer-info{
+.footer-info {
   display: flex;
 }
 .footer-logo {
@@ -425,33 +426,49 @@ footer {
   top: 7px;
   margin-left: 10px;
 }
-.footer-trafalgar p{
+.footer-trafalgar p {
   color: white;
   width: 350px;
   font-weight: 300;
   font-size: 17;
 }
-.footer-links{
+.footer-links {
   margin-left: 50px;
   margin-top: 10px;
   color: white;
   display: flex;
 }
-.footer-link{
+.footer-link {
   margin-left: 120px;
 }
-.footer-link h5{
+.footer-link h5 {
   font-weight: 700;
   padding-bottom: 7px;
 }
 
 .footer-link ul li {
- list-style: none;
- padding: 8.5px 0;
+  list-style: none;
+  padding: 8.5px 0;
 }
-.footer-link a{
+.footer-link a {
   text-decoration: none;
   color: white;
   font-weight: 300;
   font-size: 15px;
+}
+.footer-elm {
+  background: url("./images/element.svg");
+  width: 131px;
+  height: 70px;
+  position: absolute;
+  top: -70px;
+  right: 75px;
+}
+
+.footer-light-elm {
+  background-image: url("./images/img/Group.png");
+  background-size: cover;
+  height: 90px;
+  width: 120px;
+  margin: 0 15px;
 }
